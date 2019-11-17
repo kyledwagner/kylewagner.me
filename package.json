@@ -9,11 +9,17 @@
   "author": "Kyle Wagner",
   "license": "MIT",
   "dependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-typescript": "^1.0.0",
     "preact": "^10.0.5",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   },
   "devDependencies": {
     "typescript": "^3.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/kyledwagner/kylewagner.me.git"
   }
 }
