@@ -1,0 +1,19 @@
+{
+  "name": "kylewagner.me",
+  "version": "1.0.0",
+  "description": "Personal website for my portfolio and digital resume.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kyle Wagner",
+  "license": "MIT",
+  "dependencies": {
+    "preact": "^10.0.5",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.7.2"
+  }
+}
