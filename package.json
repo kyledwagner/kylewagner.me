@@ -4,7 +4,7 @@
   "description": "Personal website for my portfolio and digital resume.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:css": "tailwind build src/styles.css -o dist/styles.css"
   },
   "author": "Kyle Wagner",
   "license": "MIT",
@@ -13,9 +13,13 @@
     "parcel-plugin-typescript": "^1.0.0",
     "preact": "^10.0.5",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "tailwindcss": "^1.1.3"
   },
   "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-postcss": "^8.0.0",
     "typescript": "^3.7.2"
   },
   "repository": {
